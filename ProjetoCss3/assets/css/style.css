@@ -33,15 +33,31 @@ main{
     justify-content: center;
 }
 
-section, article{
+article{
     background-color: orange;
 }
 
 section{
+    padding: 15px 0;
     width: 660px;
 }
 
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.postagem img{
+    border-top: 1px solid #f4f4f4;
+    padding-top: 10px;
+    width: 620px;
+}
+.postagem p{
+    margin: 10px 0;
+}
 article{
+    padding: 15px 0;
     width: 240px;
 }
 
@@ -63,7 +79,13 @@ h1{
 h1 span{
     color: white;
 }
+h2{
+    color: #f7b600;
+}
 
+.postagem span{
+    font-size: 0.8em;
+}
 a{
     text-decoration: none;
 }
@@ -76,6 +98,16 @@ nav a:link, nav a:visited{
 nav a:hover{
     color: #f7b600;
     background: #FFF;
+}
+
+.postagem a:link, .postagem a:visited{
+    color:#f7b600;
+    padding: 8px;
+}
+
+.postagem a:hover{
+    color: #FFF;
+    background: #f7b600;
 }
 
 .flex{
